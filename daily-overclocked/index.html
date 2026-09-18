@@ -73,23 +73,10 @@
     letter-spacing: 0.02em;
   }
   .brand .dial {
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    border: 2px solid var(--redline);
-    position: relative;
+    width: 26px;
+    height: 26px;
     flex: none;
-  }
-  .brand .dial::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 7px;
-    height: 1.5px;
-    background: var(--redline);
-    transform-origin: left center;
-    transform: translateY(-50%) rotate(35deg);
+    display: block;
   }
   .nav-links {
     display: flex;
@@ -384,7 +371,7 @@
 
 <nav class="nav">
   <div class="wrap">
-    <div class="brand"><span class="dial"></span>DAILY OVERCLOCKED</div>
+    <div class="brand"><img class="dial" src="favicon.png" alt="Daily Overclocked">DAILY OVERCLOCKED</div>
     <div class="nav-links">
       <a href="#channels">Channels</a>
       <a href="#how">How it runs</a>
